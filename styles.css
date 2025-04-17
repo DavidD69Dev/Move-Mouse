@@ -1,0 +1,55 @@
+/* Réinitialiser les marges par défaut de tous les éléments */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style de base pour le body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+/* Conteneur principal */
+#app {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+h1.title {
+  font-size: 2rem;
+  color: #4caf50;
+  margin-bottom: 30px; /* Espacement entre h1 et le h2 suivant */
+}
+
+/* Titre secondaire */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px; /* Espacement entre h2 et le h3 suivant */
+}
+
+/* Titre des coordonnées de la souris */
+h3#title-cursor-position {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px; /* Espacement au-dessus de h3 */
+  font-weight: bold;
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
